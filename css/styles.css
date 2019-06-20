@@ -1,0 +1,75 @@
+/****** Navigation Style ******/
+.my-nav {
+  background: none;
+  position: fixed;
+  font-size: 18px;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b2b2b2;
+}
+
+my-nav .black {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100px;
+  padding: 10px 100px;
+}
+
+.nav-item {
+  padding: 15px 25px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.nav-bg {
+  background: rgba(0, 0, 0, 0.6) !important;
+  transition-duration: 0.5s;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+/****** Main Content ******/
+.header-content {
+  background: rgba(0, 0, 0, 0.6) !important;
+  object-fit: cover;
+  position: absolute;
+  height: 600px;
+  width: 100%;
+}
+
+.header-div {
+  margin-top: 250px;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.text-prop {
+  color: white;
+}
+
+.h1-text-prop {
+  font-size: 90px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.h6-text-prop {
+  font-size: 20px;
+
+}
+
+.header-img {
+  height: 600;
+  width: 100%;
+}
