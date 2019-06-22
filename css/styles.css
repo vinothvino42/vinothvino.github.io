@@ -42,9 +42,7 @@ my-nav .black {
 /****** Main Content ******/
 .header-content {
   background: rgba(0, 0, 0, 0.6) !important;
-  object-fit: cover;
-  position: absolute;
-  height: 600px;
+  height: 750px;
   width: 100%;
 }
 
@@ -66,10 +64,54 @@ my-nav .black {
 
 .h6-text-prop {
   font-size: 20px;
-
+  font-family: 'Roboto Mono', monospace;
 }
 
 .header-img {
-  height: 600;
+  height: 100%;
   width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.header-btn-div {
+  display: inline-block;
+  padding-top: 25px;
+}
+
+.header-btn-prop {
+  border-radius: 25px;
+  height: 50px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.custom-column {
+  height: 280px;
+  margin: 20px;
+}
+
+.custom-column-image {
+  align-content: center;
+  height: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+.custom-paragraph {
+  text-align: center;
+}
+
+.experience-div {
+  margin-top: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.experience-ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left: 0;
 }
