@@ -104,6 +104,23 @@ my-nav .black {
   text-align: center;
 }
 
+.subhead-prop {
+  color: #00bd56;
+  margin-bottom: 35px;
+}
+
+.project-title {
+  font-size: 30px;
+  margin: auto auto 15px auto;
+  font-family: 'Oswald', sans-serif;
+  color: #00bd56;
+}
+
+.project-subhead-title {
+  margin: 20px auto 20px auto;
+  color: #b2b2b2;
+}
+
 .experience-div {
   margin-top: 80px;
   padding-left: 120px;
@@ -121,6 +138,55 @@ my-nav .black {
   margin-bottom: 35px;
   padding-left: 120px;
   padding-right: 120px;
+}
+
+.work-row {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.hello-pickups-img {
+  float: right;
+  margin-left: 50px;
+  width: 35%;
+}
+
+.easy-ryde-img {
+  float: left;
+  margin-right: 50px;
+  width: 35%;
+}
+
+.airpark-pdx-img {
+  float: right;
+  margin-left: 40px;
+  width: 35%;
+}
+
+.chit-chat-img {
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.weather-forecast-img {
+  float: right;
+  margin-left: 30px;
+  width: 35%;
+}
+
+.goal-post-img {
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.work-project-btn {
+  border-radius: 25px;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /****** Footer Style ******/
