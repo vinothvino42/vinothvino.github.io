@@ -33,7 +33,7 @@
       <img class="header-img" src="assets/images/computer-bg.jpg" alt="computer-background">
         <div class="header-div">
           <h1 class="text-prop h1-text-prop">Hi, I'm Vinoth.</h1>
-          <h6 class="text-prop h6-text-prop">I'm an iOS Application Developer</h6>
+          <h6 class="text-prop h6-text-prop">I'm a Full Stack iOS Application Developer</h6>
           <div class="header-btn-div">
             <button type="button" class="btn btn-outline-light header-btn-prop">GET IN TOUCH</button>
             <button type="button" class="btn btn-outline-light header-btn-prop">HIRE ME</button>
@@ -51,13 +51,14 @@
       <div class="row">
         <div class="col custom-column text-center">
           <div>
-            <img src="assets/icons/building-outline.png" alt="Architecture" class="custom-column-image">
+            <img src="assets/icons/computer.png" alt="Front-End" class="custom-column-image">
             <div>
               <h5>Front-End</h5>
               <ul class="experience-ul">
                 <li>iOS</li>
                 <li>Swift</li>
                 <li>SwiftUI</li>
+                <li>UIKit</li>
                 <li>Cocoapods</li>
               </ul>
             </div>
@@ -65,7 +66,7 @@
         </div>
         <div class="col custom-column text-center">
           <div>
-            <img src="assets/icons/interior-design1.png" alt="Interior Design" class="custom-column-image">
+            <img src="assets/icons/server.png" alt="Back-End" class="custom-column-image">
             <div>
               <h5>Back-End</h5>
               <ul class="experience-ul">
@@ -80,21 +81,51 @@
         </div>
         <div class="col custom-column text-center">
           <div>
-            <img src="assets/icons/estimate1.png" alt="Estimate" class="custom-column-image">
+            <img src="assets/icons/tool.png" alt="Tools" class="custom-column-image">
             <div>
               <h5 text-center>Tools</h5>
               <ul class="experience-ul">
                 <li>Xcode</li>
                 <li>VSCode</li>
                 <li>Git</li>
+                <li>Terminal</li>
                 <li>Postman</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-div">
+      <footer class="page-footer font-small">
+        <div class="container-footer text-center text-md-left mt-5" style="height: 300px;">
+          <div class="footer-work">
+            <h1 class="footer-text">Wanna work with me ?</h1>
+            <p class="footer-text">I'm currently available for work.</p>
+            <button type="button" class="btn btn-outline-light header-btn-prop footer-hireme-btn">HIRE ME</button>
+          </div>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-copyright py-3 footer-copy-div">
+          <p style="color: white;">© 2019 Copyright - Vinoth Vino</p>
+        </div>
+      </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(window).on("scroll", function() {
+         if($(window).scrollTop() > 50) {
+             $(".navbar").addClass("nav-bg");
+             $(".navbar").addClass("shadow");
+         } else {
+             $(".navbar").removeClass("nav-bg");
+             $(".navbar").removeClass("shadow");
+         }
+     });
+     (jQuery)
+    </script>
   </body>
 </html>
