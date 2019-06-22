@@ -11,6 +11,10 @@
   <body>
     <div class="container-fluid">
       <nav class="my-nav navbar navbar-expand-lg navbar-dark fixed-top">
+        <div>
+          <input class="dev-img-container" type="image" src="assets/icons/github.png" onclick="alert('Don\'t forget to press the back button to return!')" width="35" height="35">
+          <input class="dev-img-container" type="image" src="assets/icons/stackoverflow.png" onclick="alert('Don\'t forget to press the back button to return!')" width="35" height="35">
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +27,7 @@
               <a class="nav-link" href="#">Hire Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">About</a>
             </li>
           </ul>
         </div>
@@ -35,7 +39,7 @@
           <h1 class="text-prop h1-text-prop">Hi, I'm Vinoth.</h1>
           <h6 class="text-prop h6-text-prop">I'm a Full Stack iOS Application Developer</h6>
           <div class="header-btn-div">
-            <button type="button" class="btn btn-outline-light header-btn-prop">GET IN TOUCH</button>
+            <!-- <button type="button" class="btn btn-outline-light header-btn-prop">GET IN TOUCH</button> -->
             <button type="button" class="btn btn-outline-light header-btn-prop">HIRE ME</button>
           </div>
         </div>
@@ -96,19 +100,43 @@
         </div>
       </div>
     </div>
+    <div class="work-div">
+      <div>
+        <h2 class="text-center" style="margin-bottom: 35px;">Work</h2>
+        <p class="custom-paragraph">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+        </p>
+      </div>
+      <div class="work-row">
+        <img src="assets/images/computer-bg" alt="Computer Background">
+        <h5>Chit Chat</h5>
+        <p>A simple real time chat application for iOS. You can create post, groups, invite users to join in your group and more.</p>
+      </div>
+      <div class="work-row">
+        <img src="assets/images/computer-bg" alt="Computer Background">
+        <h5>Weather Now</h5>
+        <p>Get the current weather conditions for your favourite places.</p>
+      </div>
+      <div class="work-row">
+        <img src="assets/images/computer-bg" alt="Computer Background">
+        <h5>Todoey</h5>
+        <p>A simple Todo List App built using Realm Database.</p>
+      </div>
+    </div>
     <!-- Footer -->
-    <div class="footer-div">
+    <div class="container-footer text-center footer-div">
       <footer class="page-footer font-small">
-        <div class="container-footer text-center text-md-left mt-5" style="height: 300px;">
-          <div class="footer-work">
+        <div class="container-footer text-center text-md-left mt-5" style="height: 350px;">
+          <div class="container text-center footer-work">
             <h1 class="footer-text" style="margin-bottom: 15px;">I can help.</h1>
             <p class="footer-text">I'm currently available for freelance work.</p>
-            <button type="button" class="btn btn-outline-light header-btn-prop footer-hireme-btn">GET IN TOUCH</button>
+            <p class="footer-text footer-project-p">If you have a project that you want to get started, think you need my help with something, then get in touch.</p>
+            <button type="button" class="btn btn-outline-light header-btn-prop footer-hireme-btn">CONTACT ME</button>
           </div>
         </div>
         <!-- Footer Links -->
         <div class="footer-copyright py-3 footer-copy-div">
-          <p style="color: white;">© 2019 Copyright - Vinoth Vino</p>
+          <p class="footer-paragraph">© 2019 Copyright - Vinoth Vino</p>
         </div>
       </footer>
     </div>

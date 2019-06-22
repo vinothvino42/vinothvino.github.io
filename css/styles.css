@@ -26,8 +26,8 @@ my-nav .black {
   padding: 15px 25px;
 }
 
-.navbar-brand {
-  font-size: 20px;
+.dev-img-container {
+  margin-left: 20px;
 }
 
 .nav-bg {
@@ -116,6 +116,13 @@ my-nav .black {
   padding-left: 0;
 }
 
+.work-div {
+  margin-top: 80px;
+  margin-bottom: 35px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 /****** Footer Style ******/
 .footer-div {
   background-color: black;
@@ -128,17 +135,32 @@ my-nav .black {
 
 .footer-copy-div {
   background-color: black;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.footer-paragraph {
+  color: white;
+}
+.footer-copy-image {
+  height: 60px;
+  width: 60px;
 }
 
 .footer-work {
   background-color: black;
-  text-align: center;
+  height: 100%;
   padding-top: 70px;
   padding-bottom: 100px;
 }
 
+.footer-project-p {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
 .footer-hireme-btn {
+  display: block;
   margin-top: 30px;
   margin-bottom: 20px;
 }
