@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container-fluid">
       <nav class="my-nav navbar navbar-expand-lg navbar-dark fixed-top">
         <div>
-          <input class="dev-img-container" type="image" src="assets/icons/github.png" onclick="alert('Don\'t forget to press the back button to return!')" width="35" height="35">
-          <input class="dev-img-container" type="image" src="assets/icons/stackoverflow.png" onclick="alert('Don\'t forget to press the back button to return!')" width="35" height="35">
+          <a href="https://stackoverflow.com/users/4608334/vinoth-vino">
+            <input class="dev-img-container" type="image" src="assets/icons/stackoverflow.png" width="35" height="35">
+          </a>
+          <a href="https://github.com/vinothvino42">
+            <input class="dev-img-container" type="image" src="assets/icons/github.png" width="35" height="35">
+          </a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,10 +27,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#my-projects">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hire Me</a>
+              <a class="nav-link" href="mailto:vinothvino4265@icloud.com;">Hire Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -40,8 +45,7 @@
           <h1 class="text-prop h1-text-prop">Hi, I'm Vinoth.</h1>
           <h6 class="text-prop h6-text-prop">I'm a Full Stack iOS Application Developer</h6>
           <div class="header-btn-div">
-            <!-- <button type="button" class="btn btn-outline-light header-btn-prop">GET IN TOUCH</button> -->
-            <button type="button" class="btn btn-outline-light header-btn-prop">HIRE ME</button>
+            <button type="button" class="btn btn-outline-light header-btn-prop" onclick="location.href='mailto:vinothvino4265@icloud.com';">HIRE ME</button>
           </div>
         </div>
       </img>
@@ -101,7 +105,7 @@
         </div>
       </div>
     </div>
-    <div class="work-div">
+    <div class="work-div" id="my-projects">
       <div>
         <h1 class="text-center subhead-prop">Work</h1>
         <p class="custom-paragraph">
@@ -113,7 +117,9 @@
         <h3 class="project-title">Hello Pickups</h3>
         <p>Hello Pickups is a ridesharing APP for hassle free goods transportation 24 x 7 Operation.
         Do you need to move your house? Do you need to Purchase New / Old Furniture & get it delivered on the same day? Forget about the legacy method of searching the movers; Hello Pickups APP offers you a mobile platform to find and book the nearest Pickup / Mover so that you can book the pickup right away or can Schedule for Later.</p>
-        <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        <a href="https://apps.apple.com/us/app/hello-pickups/id1391879077">
+          <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        </a>
         <h5 class="project-subhead-title">My Role</h5>
         <p>Sole iOS developer from new project to the release version 2.1.7</p>
         <h5 class="project-subhead-title">Technologies</h5>
@@ -123,7 +129,9 @@
         <img class="easy-ryde-img" src="assets/images/easy-ryde.png" alt="EasyRyde">
         <h5 class="project-title">EasyRyde</h5>
         <p>The application serves as a mid-point between logistics companies and individuals as it also serves leverage for these companies access a wider range of audience.</p>
-        <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        <a href="https://apps.apple.com/sg/app/id1454663680">
+          <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        </a>
         <h5 class="project-subhead-title">My Role</h5>
         <p>Sole iOS developer from new project to the initial release.</p>
         <h5 class="project-subhead-title">Technologies</h5>
@@ -133,7 +141,9 @@
         <img class="airpark-pdx-img" src="assets/images/airpark-pdx.png" alt="Airpark PDX">
         <h5 class="project-title">Airpark PDX</h5>
         <p>Airpark PDX is a general shuttle booking application where the users can book a shuttle and travel to Airpark Portland. The application includes a basic registration and login form submission. And once you requested for the shuttle the Estimated Time Arrival(ETA), driver details and mobile number to contact the driver will reach you once your shuttle is booked for you. You can also Live Track the shuttle in Maps inside the application which involves Teliver SDK. So you can easily avail the shuttle and also view the route while travelling.</p>
-        <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        <a href="https://apps.apple.com/us/app/airpark-pdx/id1434804560">
+          <input type="image" src="assets/icons/appstore.png" alt="Download on the App Store" width="150" height="50">
+        </a>
         <h5 class="project-subhead-title">My Role</h5>
         <p>Sole iOS developer from new project to the release version 1.9</p>
         <h5 class="project-subhead-title">Technologies</h5>
@@ -143,21 +153,34 @@
         <img class="chit-chat-img" src="assets/images/chit-chat.png" alt="Chit Chat">
         <h5 class="project-title">Chit Chat</h5>
         <p>A simple real time chat application for iOS. You can create post, groups, invite users to join in your group and more.</p>
-        <button type="button" class="btn btn-outline-dark work-project-btn">View Project</button>
+        <a href="https://github.com/vinothvino42/Chit-Chat">
+          <button type="button" class="btn btn-outline-dark work-project-btn">View Project</button>
+        </a>
         <h5 class="project-subhead-title">My Role</h5>
         <p>Sole iOS developer from new project to the final release.</p>
         <h5 class="project-subhead-title">Technologies</h5>
-        <p>Swift, Firebase(Authentication, Database)</p>
+        <p>Swift, Firebase(Authentication, Database, Storage)</p>
       </div>
       <div class="work-row">
         <img class="weather-forecast-img" src="assets/images/weather-forecast.png" alt="Weather Now">
         <h5 class="project-title">Weather Now</h5>
         <p>Get the current weather conditions for your favourite places.</p>
-        <button type="button" class="btn btn-outline-dark work-project-btn">View Project</button>
+        <a href="https://github.com/vinothvino42/Weather-Forecast">
+          <button type="button" class="btn btn-outline-dark work-project-btn">View Project</button>
+        </a>
         <h5 class="project-subhead-title">My Role</h5>
         <p>Sole iOS developer from new project to the final release.</p>
         <h5 class="project-subhead-title">Technologies</h5>
         <p>Swift, Open Weather Map API</p>
+      </div>
+    </div>
+    <div class="about-me-div" id="about-me">
+      <div class="text-center">
+        <h1 class="text-center subhead-prop">About me</h1>
+        <img class="vino-iosdev-img text-center" src="assets/images/vino-ios-dev.jpg" alt="Vinoth Vino">
+        <p class="custom-paragraph">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+        </p>
       </div>
     </div>
     <!-- Footer -->
@@ -168,7 +191,7 @@
             <h1 class="footer-text" style="margin-bottom: 15px;">I can help.</h1>
             <p class="footer-text">I'm currently available for freelance work.</p>
             <p class="footer-text footer-project-p">If you have a project that you want to get started, think you need my help with something, then get in touch.</p>
-            <button type="button" class="btn btn-outline-light header-btn-prop footer-hireme-btn">CONTACT ME</button>
+            <button type="button" class="btn btn-outline-light header-btn-prop footer-hireme-btn" onclick="location.href='mailto:vinothvino4265@icloud.com';">CONTACT ME</button>
           </div>
         </div>
         <!-- Footer Links -->
