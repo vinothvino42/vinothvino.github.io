@@ -191,10 +191,15 @@ my-nav .black {
 }
 
 .vino-iosdev-img {
-  border-radius: 50;
+  border-radius: 125px;
   margin: auto auto 30px auto;
   height: 250px;
   width: 250px;
+}
+
+.social-icon-div {
+  display: inline-block;
+  margin: 10px auto 10px auto;
 }
 
 /****** Footer Style ******/
@@ -235,6 +240,5 @@ my-nav .black {
 
 .footer-hireme-btn {
   display: block;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 25px auto 20px auto;
 }
