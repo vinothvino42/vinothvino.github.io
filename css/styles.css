@@ -42,7 +42,7 @@ my-nav .black {
 /****** Main Content ******/
 .header-content {
   background: rgba(0, 0, 0, 0.6) !important;
-  height: 750px;
+  height: 100vh;
   width: 100%;
 }
 
